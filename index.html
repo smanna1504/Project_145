@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+<a-scene background="color: #87ceeb">
+    <a-assets>
+        <img id="window" src="https://img.lovepik.com/free-png/20210918/lovepik-round-window-png-image_400236086_wh1200.png">
+        <img id="door" src="https://thumbs.dreamstime.com/b/door-vector-illustration-15870961.jpg">
+        <img id="sun" src="/sun_img.png">
+        <img id="tree" src="https://static.vecteezy.com/system/resources/previews/011/416/879/original/christmas-tree-cartoon-colored-clipart-free-vector.jpg">
+    </a-assets>
+
+    <a-box position="-1 1.5 -3.5" color="#C17802" width="0.1" rotation="-90 -90 0" depth="2" height="3.2"></a-box>
+    <a-box position="-2.6 1.5 -2.71" color="#C17802" width="0.1" rotation="-90 0 0" depth="2" height="1.5"></a-box>
+    <a-box position="0.6 1.5 -2.71" color="#C17802" width="0.1" rotation="-90 0 0" depth="2" height="1.5"></a-box>
+    <a-box position="-0.875 2.45 -2.5" color="#C17802" width="0.1" rotation="0 90 90" depth="2.8" height="1.1"></a-box>
+    <a-box position="-1 1.5 -2" color="#C17802" width="0.1" rotation="-90 -90 0" depth="2" height="3.2"></a-box>
+    <a-box src="#door" position="-1 1.1 -2" width="0.1" rotation="0 -90 0" depth="0.8" height="1.2"></a-box>
+    <a-circle src="#window" radius="0.3" rotation="0 0 0" position="0.1 1.8 -1.9"></a-circle>
+    <a-circle src="#window" radius="0.3" rotation="0 0 0" position="-2 1.8 -1.9"></a-circle>
+    <a-circle src="#sun" transparent="true" radius="0.3"  rotation="0 0 0" position="1.65 2.5 -1.5"></a-circle>
+    <a-plane position="0 0 -4" rotation="-90 0 0" width="40" height="4" color=" #7EC850"></a-plane>
+</a-scene>
+</body>
